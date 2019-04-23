@@ -11125,27 +11125,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="U$1" library="stm32F030x" deviceset="STM32F030" device="" package3d_urn="urn:adsk.eagle:package:4313/2"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="27p"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="27p"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="12TR"/>
+<part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="12TR" value="LD1117S33TR"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206K"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206K"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206K" value="10u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206K" value="10n"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206K"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206K"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="M1206" value="4K7"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="SM49"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206K"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" value=""/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
@@ -11160,9 +11160,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M1206" value="82R"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="M1206" value="68R"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" value=""/>
@@ -11222,19 +11222,19 @@ RX</text>
 <attribute name="VALUE" x="388.62" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="G$1" x="469.9" y="22.86" smashed="yes">
-<attribute name="NAME" x="472.44" y="15.24" size="1.778" layer="95"/>
-<attribute name="VALUE" x="472.44" y="12.7" size="1.778" layer="96"/>
+<attribute name="NAME" x="464.82" y="30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="464.82" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="469.9" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="467.36" y="-7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="482.6" y="15.24" smashed="yes">
-<attribute name="NAME" x="484.124" y="15.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="484.124" y="10.541" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="482.6" y="12.7" smashed="yes">
+<attribute name="NAME" x="484.124" y="13.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="484.124" y="8.001" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="454.66" y="15.24" smashed="yes">
-<attribute name="NAME" x="456.184" y="15.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="456.184" y="10.541" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="454.66" y="12.7" smashed="yes">
+<attribute name="NAME" x="456.184" y="13.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="456.184" y="8.001" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="500.38" y="30.48" smashed="yes">
 <attribute name="VALUE" x="497.84" y="25.4" size="1.778" layer="96" rot="R90"/>
@@ -11415,11 +11415,11 @@ RX</text>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="454.66" y1="10.16" x2="454.66" y2="0" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="7.62" x2="454.66" y2="0" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="0" x2="469.9" y2="0" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="0" x2="482.6" y2="0" width="0.1524" layer="91"/>
-<wire x1="482.6" y1="0" x2="482.6" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="0" x2="482.6" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
 <wire x1="469.9" y1="15.24" x2="469.9" y2="0" width="0.1524" layer="91"/>
 <junction x="469.9" y="0"/>
@@ -11571,7 +11571,7 @@ RX</text>
 <net name="VCC" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="454.66" y1="17.78" x2="454.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="15.24" x2="454.66" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <wire x1="454.66" y1="22.86" x2="462.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -11596,7 +11596,7 @@ RX</text>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="500.38" y1="22.86" x2="500.38" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="482.6" y1="17.78" x2="482.6" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="15.24" x2="482.6" y2="22.86" width="0.1524" layer="91"/>
 <junction x="482.6" y="22.86"/>
 </segment>
 <segment>
