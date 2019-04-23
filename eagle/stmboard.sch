@@ -11132,7 +11132,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="12TR" value="LD1117S33TR"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206K" value="10u"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206K" value="10n"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206K" value="100n"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
