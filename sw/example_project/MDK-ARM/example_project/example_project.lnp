@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"example_project\startup_stm32f030x6.o"
+"example_project\main.o"
+"example_project\gpio.o"
+"example_project\usart.o"
+"example_project\stm32f0xx_it.o"
+"example_project\stm32f0xx_hal_msp.o"
+"example_project\stm32f0xx_hal_tim.o"
+"example_project\stm32f0xx_hal_tim_ex.o"
+"example_project\stm32f0xx_hal_uart.o"
+"example_project\stm32f0xx_hal_uart_ex.o"
+"example_project\stm32f0xx_hal_rcc.o"
+"example_project\stm32f0xx_hal_rcc_ex.o"
+"example_project\stm32f0xx_hal.o"
+"example_project\stm32f0xx_hal_i2c.o"
+"example_project\stm32f0xx_hal_i2c_ex.o"
+"example_project\stm32f0xx_hal_gpio.o"
+"example_project\stm32f0xx_hal_dma.o"
+"example_project\stm32f0xx_hal_cortex.o"
+"example_project\stm32f0xx_hal_pwr.o"
+"example_project\stm32f0xx_hal_pwr_ex.o"
+"example_project\stm32f0xx_hal_flash.o"
+"example_project\stm32f0xx_hal_flash_ex.o"
+"example_project\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "example_project\example_project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "example_project.map" -o example_project\example_project.axf
